@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-image: url('Fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+  }
+.dmgv45{
+    border: 2px solid black;
+    background-image: url("Fondo.jpg");
+    background-color: black;
+    height: 100vh;
+} 
+  h2{
+      color: yellow;
+      text-align: center;
+  }
+  .cajapacman{
+      border-style: solid;
+      border-radius: 2px;
+      border-color: blue;
+      height: 120vh;
+      text-align: center;
+      background-color: black;
+      background-image: url(https://cdn.wallpapersafari.com/84/60/jNJ8sy.png);
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      background-position-y: 50%;
+  }
+  .pacmananimation1{
+      display: flex;
+      height: 10vh;
+      position: relative;
+      animation: pacmancorre1 8s infinite;
+  }
+  @keyframes pacmancorre1 {
+      0%   {top: 0px; left: 0px; }
+      10%  {top: 0px; left: 1500px; }
+      20%  {top: 50px; left: 1500px; }
+      30%  {top: 50px; left: 50px; }
+      40% {top: 200px; left: 50px; }
+      50% {top: 200px; left: 1500px; }
+      60% {top: 350px; left: 1500px; }
+      70% {top: 350px; left: 50px; }
+      80% {top: 500px; left: 50px; }
+      90% {top: 500px; left: 1500px; }
+      100% {top: 650px; left: 1500px; }
+  }
